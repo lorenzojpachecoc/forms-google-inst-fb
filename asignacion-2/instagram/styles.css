@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+    padding: 0 200px;
+}
+
+.phone-container {
+    margin-right: 20px;
+}
+
+.phone-container img {
+    height: 550px;
+    
+}
+
+.login-container {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+}
+
+.name-insta{
+    width: 50%;
+    height: 50%;
+}
+
+.login-container h1 {
+    font-family: 'Billabong', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.container-lines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    border-bottom: 1px solid rgb(209, 209, 209); 
+}
+
+.container-lines p{
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+.login-facebook a {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.sign-up {
+    margin-top: 10px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.sign-up p {
+    font-size: 14px;
+}
+
+.sign-up a {
+    color: #3897f0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.download-app {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.download-app p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.app-links {
+    margin-right: 0;
+    padding: 0;
+}
+
+.app-links img {
+    height: 40px;
+   
+}
+
+.sesion-face{
+    width: 5%;
+    height: 5%;
+    margin-right: 5px;
+}

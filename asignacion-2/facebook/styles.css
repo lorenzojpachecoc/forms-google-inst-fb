@@ -1,0 +1,102 @@
+        body {
+            font-family: inherit;
+            background-color: #f0f2f5;
+        }
+
+
+        .header {
+            margin-top: 3%;
+            text-align: center;
+        }
+
+        .header img {
+            max-height: 45px;
+        }
+
+        .message{
+            text-align: justify;
+            background-color: white;
+            border: 1px solid rgb(13, 24, 221);
+            border-radius: 4px;
+            padding: 10px;
+            width: 35%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .material-icons {
+            max-width: max-content;
+            color: #4285F4;
+        }
+
+        .login-box {
+            display: grid;
+            place-items: center;
+            background: white;
+            padding: 20px;
+            border: solid rgb(0, 0, 0, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            height: 350px;
+            max-width: 350px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .login-box p {
+            font-size: 20px;
+            margin-top: 1px;
+        }
+
+        .message-login-box{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            background-color: rgb(255, 255, 203);
+            border: 1px solid rgb(249, 237, 7);
+            padding: 5px;
+            width: 103%;
+            height: 50%;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0055ff;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .login-box button:hover {
+            background-color: #0b5aec;
+        }
+
+        .register-face{
+            display: inline-flex;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: #888;
+            margin-top: 20px;
+        }
